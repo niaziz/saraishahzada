@@ -1,0 +1,958 @@
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="./assets/img/illustrations/icon-documentation.svg">
+
+<title>
+  
+  PHP By Zarifullah
+  
+</title>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+<link id="pagestyle" href="./assets/css/argon-dashboard.css" rel="stylesheet" />
+</head>
+
+
+<body class="g-sidenav-show bg-gray-100">
+    
+    <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4" id="sidenavCard">
+  
+  <div class="sidenav-header">
+    <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+    <a class="navbar-brand m-0" href="#" target="_blank">
+      
+      <img src="./assets/img/profile.jpg" class="navbar-brand-img h-100 border-radius-xl" alt="main_logo">
+      
+      <span class="ms-1 font-weight-bold">Zarifullah Niazi</span>
+      
+    </a>
+  </div>
+
+  <hr class="horizontal dark mt-0">
+
+  <div class="" id="sidenav-collapse-main">
+    
+    <ul class="navbar-nav">
+
+    <li class="nav-item mt-3">
+        <h6 class="ps-4 ms-2  text-xs font-weight-bolder opacity-6">Introduction to PHP</h6>
+    </li>
+      
+    <li class="">
+    <a class="nav-link" href="#1">
+    
+      <div class="icon icon-shape icon-sm border-radius-md text-center d-flex align-items-center justify-content-center">
+        <i class="ni ni-fat-delete text-primary text-sm opacity-100"></i>
+      </div>
+    
+      <span class="" id="php-home">Php Home</span>
+    </a>
+
+    </li>
+    
+    <li class="py-0">
+      <a class="nav-link " href="#2">
+      
+        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+          <i class="ni ni-fat-delete text-primary text-sm opacity-100"></i>
+        </div>
+      
+        <span>PHP Syntax & Comments</span>
+      </a>
+  
+      </li>
+  
+
+    
+  <li class="">
+    <a class="nav-link " href="#3">
+    
+      <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+      </div>
+    
+      <span class="nav-link-text ms-1">PHP variables and scope</span>
+    </a>
+  </li>
+
+</li><li class="">
+  <a class="nav-link " href="#4">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Data Type</span>
+  </a>
+</li>
+
+</li><li class="">
+  <a class="nav-link " href="#5">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Strings</span>
+  </a>
+</li>
+
+</li><li class="">
+  <a class="nav-link " href="#6">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Number</span>
+  </a>
+</li></li>
+<li class="">
+  <a class="nav-link " href="#7">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Conditions</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#8">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Loops</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#9">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Functions</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#10">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Array</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#11">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Php form Handling</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#12">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Cookies</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#13">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Sessions</span>
+  </a>
+</li>
+
+
+   </ul>
+  </div>
+  
+    </aside>
+
+<main class="main-content">
+      
+    <nav class="navbar navbar-main navbar-expand-lg py-1 m-3 border-radius-xl bg-white" id="">
+      <div class="container-fluid py-1 px-3">
+        <nav>
+      
+          <h6 class="font-weight-bolder mb-0">Introduction to PHP</h6>
+          
+      
+        </nav>
+      <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+
+
+      <ul class="navbar-nav  justify-content-end">
+        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line bg-black"></i>
+              <i class="sidenav-toggler-line bg-black"></i>
+              <i class="sidenav-toggler-line bg-black"></i>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+      </div>
+      </div>
+    </nav>
+
+    
+
+<!-- End Navbar -->
+<!-- Main page content -->
+<div class="container-fluid py-4 position-absolute">
+  
+ 
+
+
+  <div class="col-lg-6 mb-lg-2" id="1">
+      <div class=" h-100 p-auto">
+      <div class="card-header pb-0 pt-2 bg-transparent">
+        <h6 class="text-capitalize p-2">Php Home</h6>
+        <hr>
+      </div> 
+      
+      <div class="body-text pb-0 p-4">
+          <p>- PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages</p>
+          <p>- PHP is a widely-used, free, and efficient alternative to competitors such as Microsofts ASP.</p>
+          <p>
+            - PHP is an acronym for "PHP: Hypertext Preprocessor"
+            <br>
+            - PHP is a widely-used, open source scripting language
+            <br>
+            - PHP scripts are executed on the server
+            <br>
+            - PHP is free to download and use
+            <br>
+            - PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+            <br>
+            - PHP is compatible with almost all servers used today (Apache, IIS, etc.)
+            <br>
+            - PHP supports a wide range of databases
+            <br>
+            - PHP is free. Download it from the official PHP resource: www.php.net
+            <br>
+            - PHP is easy to learn and runs efficiently on the server side
+            <br>
+            <br>
+          </p>
+      </div>
+        <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+          <h6 class="text-white">Example</h6>
+          &#8249;?php
+          <br>
+          echo "My first PHP script!";
+          <br>
+          ?>
+        </code>
+      </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="2">
+      <div class=" h-100 p-auto">
+        <div class=" h-100 p-auto">
+          <div class="card-header pb-0 pt-2 bg-transparent">
+            <h6 class="text-capitalize p-2">Php Syntax & comments</h6>
+              <hr>
+          </div> 
+      
+          <div class="body-text pb-0 p-4">
+              <P> A PHP script can be placed anywhere in the document. Every single Php script pages starts with <code>&#8249;?php </code>and ends with <code>?></code>.The default extension for Php is <code>.Php</code>.</P> 
+              <br>
+              <P>Also, Php is not case sensitive. You can write them whether with small wording or capitiliztion.</P>
+              <br>
+              <P>You can also comment code in Php by adding <code>//</code> at the beginning of a single line code</P>
+          </div>
+
+          <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default"  >
+            <h6 class="text-white">Example</h6>
+            &#8249;?php
+            <br>
+            // echo "My first PHP script!";
+            <br>
+            or 
+            <br>
+            // ECHO "My first PHP script!";
+            <span class="text-danger">works same as above</span>
+            <br>
+            ?>
+            <br>
+            <span class="text-success">The above Script ,also, has been commented</span>
+          </code>
+
+          <div class="card body-text pb-0 p-4 border-radius-xl bg-gray-400">
+            <p>However, variable nameing is case sensitive. See the example</p>
+          </div> 
+          <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default"  >
+            &#8249;?php
+            <br>
+            $color = "red";
+            <br>
+            echo "My car is " . $color;
+            <br>
+            echo "My house is " . $COLOR;
+            <br>
+            echo "My boat is " . $coLOR;
+            <br>
+            ?>
+          </code>
+        </div>
+
+      </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="3">
+      <div class=" h-100 p-auto">
+      <div class="card-header pb-0 pt-2 bg-transparent">
+        <h4 class="text-capitalize p-2">PHP Variable & scope</h4>
+        <hr>
+      </div> 
+      <div class="body-text pb-0 p-4">
+          <h6>Creating or declearing variables in PHP</h6>
+          <p>- In PHP variables starts with <code>$</code>, followed by the name of variable.</p>
+          <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default"  >
+            &#8249;?php
+            <br>
+            $txt = "Hello world!";
+            <br>
+            $primaryVarible = 7;
+            <br>
+            $variable= 0.9;
+            <br>
+            ?>
+          </code>
+
+
+          - After the excution of the above statment the <code>"Hello world!"</code> will be stored in <code>$txt</code> variable. 
+          <br>
+          - Think of variables as containers for stuff.
+            <br>
+          - Variables can have short names such as <code>$X</code> or <code>$Y</code> or more descriptive names such as <code>$name,$age, $BirthDate</code>...
+            <br>
+            <br>
+            <br>
+            <h5>Rules for PHP variables</h5>
+            * A variable starts with the $ sign, followed by the name of the variable.
+            <br>
+            * A variable name must start with a letter or the underscore character
+            <br>
+            * variable name cannot start with a number
+            <br>
+            * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+            <br>
+            * Variable names are case-sensitive ($age and $AGE are two different variables)
+          </p>
+          <br>
+          <br>
+          <h5>PHP output</h5>
+          <p>  You can use <code>Echo</code> built-in function to output data</p>
+        </div>
+        
+      
+        
+          
+        <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+          <h6 class="text-white">Example</h6>
+          &#8249;?php
+          <br>
+          $txt = "created with LOVE";
+          <br>
+          echo "I  $txt!";
+          <br>
+          ?>
+        </code>
+
+        <div class="body-text pb-0 p-4">
+        <h5 class="">Output</h5>
+        </div>
+
+        <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default">
+          I created with LOVE
+        </code>
+
+        <div class="body-text pb-0 p-4">
+            <h5>PHP is loosly type programming Language</h5>
+            <p>PHP atomatically figures out the type of data after declearing it to variables. It is not ristricted to mention the type of variables at the beginning of the variables. However, in PHP 7 a number of rules have been added to ristrict some programmatic rule. It will thorw a fital error in case of mismatch.</p>
+        </div>
+
+        </div>
+  </div>
+      
+  <div class="col-lg-6 mb-lg-2" id="4">
+      <div class=" h-100 p-auto">
+        <div class="card-header pb-0 pt-2 bg-transparent">
+          <h4 class="text-capitalize p-2">PHP Data Type</h4>
+          <hr>
+        </div> 
+        <div class="body-text pb-0 p-4">
+            <h6>Data Types in PHP</h6>
+            <p>PHP supprots the following data types:</p>
+            <p>
+            - String
+            <br>
+            - Integer
+            <br>
+            - Float (floating point numbers - also called double)
+            <br>
+            - Boolean
+            <br>
+            - Array
+            <br>
+            - Object
+            <br>
+            - NULL
+            <br>
+            - Resource
+            </p>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="5">
+      <div class=" h-100 p-auto">
+      <div class="card-header pb-0 pt-2 bg-transparent">
+        <h4 class="text-capitalize p-2">PHP String</h4>
+        <hr>
+      </div> 
+      
+      <div class="body-text pb-0 p-4">
+          <h5>PHP String Functions</h5>
+          <p>Here are the most popular string fuctions of PHP:</p>
+          <h6> #1 strlen() - Returns the length of a string</h6>
+           
+      </div>
+       
+
+        <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+          <h6 class="text-white">Example</h6>
+          &#8249;?php
+          echo strlen("Hello world!"); // outputs 12?>
+          
+        </code>
+
+        <h6 class="m-3">#2 str_word_count() - Returns the number of words</h6>
+        <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+          <h6 class="text-white">Example</h6>
+          &#8249;?php
+          echo str_word_count("Hello world!");
+          //outputs 2 ?>
+        </code>
+        <h6 class="m-3">#3 strrev() - Reverse the String</h6>
+        <h6 class="m-3">#4 strpos() - Search for a Text within String</h6>
+        <h6 class="m-3">#4 str_replace() - Replace text within String</h6>
+        
+    </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="6">
+    <div class=" h-100 p-auto">
+    <div class="card-header pb-0 pt-2 bg-transparent">
+      <h4 class="text-capitalize p-2">PHP Number</h4>
+      <hr>
+    </div> 
+    
+    <div class="body-text pb-0 p-4">
+        <h5>PHP Number</h5>
+        <p>An integer is a none-decimal Number</p>
+        <h6> #1 strlen() - Returns the length of a string</h6>
+         
+    </div>
+     
+
+      <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+        <h6 class="text-white">Example</h6>
+        &#8249;?php
+        echo strlen("Hello world!"); // outputs 12?>
+        
+      </code>
+
+      <h6 class="m-3">#2 str_word_count() - Returns the number of words</h6>
+      <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+        <h6 class="text-white">Example</h6>
+        &#8249;?php
+        echo str_word_count("Hello world!");
+        //outputs 2 ?>
+      </code>
+      <h6 class="m-3">#3 strrev() - Reverse the String</h6>
+      <h6 class="m-3">#4 strpos() - Search for a Text within String</h6>
+      <h6 class="m-3">#4 str_replace() - Replace text within String</h6>
+      
+    </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="7">
+    
+    <div class=" h-100 p-auto">
+    <div class="card-header pb-0 pt-2 bg-transparent">
+      <h4 class="text-capitalize p-2">PHP Conditions</h4>
+      <hr>
+    </div> 
+    
+    <div class="body-text pb-0 p-4">
+        <h5>PHP Conditions</h5>
+        <p>Like every other programming language Php use <code>if , else, elseif</code> key words to make decisions in code </p>
+         
+    </div>
+    <p>statement - executes some code if one condition is true</p> 
+    <p>
+    switch statement - selects one of many blocks of code to be executed
+    </p>
+    <p>
+    if...elseif...else statement - executes different codes for more than two conditions
+    </p>
+    <p>
+    if...else statement - executes some code if a condition is true and another code if that condition is false
+    </p>
+
+      <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+        <h6 class="text-white">Example</h6>
+        &#8249;?php
+        <br>
+        $age = 18;
+        <br>
+        if(&age == 18){
+        <br>
+          echo 'You are 18 years old'
+        <br>
+        }else{
+        <br>
+          echo 'You are not 18 years old'
+        <br>
+        }
+        <br>
+        >
+        
+      </code>
+    </div>
+  </div>
+
+  <div class="col-lg-6 mb-lg-2" id="8">
+    <div class=" h-100 p-auto">
+    <div class="card-header pb-0 pt-2 bg-transparent">
+      <h6 class="text-capitalize p-2">PHP Loops</h6>
+      <hr>
+    </div> 
+    
+    <div class="body-text pb-0 p-4">
+        <p>Php Loops</p>
+      <p>
+        Often when you write code, you want the same block of code to run over and over again a certain number of times. So, instead of adding several almost equal code-lines in a script, we can use loops.
+</p>
+<p>
+Loops are used to execute the same block of code again and again, as long as a certain condition is true.
+
+</p>
+<p>
+In PHP, we have the following loop types:
+</p>
+<p>
+<code>
+  do...while
+</code> - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+
+</p>
+<p>
+  <code>
+    for
+  </code>
+ - loops through a block of code a specified number of times
+
+</p>
+<p>
+  <code>
+    foreach 
+  </code>
+- loops through a block of code for each element in an array
+
+</p>
+        <p>
+          The following example will explain and give examples of each loop type.
+        </p>
+    </div>
+      <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+        <h6 class="text-white">Example</h6>
+        ?php
+        <br>
+$i = 1;
+<br>
+do{
+  <br>
+    $i++;
+    <br>
+    echo "The number is " . $i . "";
+    <br>
+
+}
+<br>
+while($i <= 3);
+<br>
+?>
+      </code>
+      <code class="card border-x1 col-lg-9 m-3 p-4">
+        for(initialization; condition; increment){
+          <br>
+          // Code to be executed
+        }
+ 
+      </code>
+      
+    </div>
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="9">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP Functions</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  A function is a block of statements that can be used repeatedly in a program.
+</p>
+<p>
+  A function will not execute automatically when a page loads.
+</p>
+ 
+<p>A function will be executed by a call to the function.</p>
+
+<h1>Syntax</h1>
+<code class="card border-x1 col-lg-9 m-3 p-4">
+  function functionName() {
+    <br>
+    code to be executed;
+    <br>
+  }
+</code>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  <h4>Example</h4>
+  <?php
+  <br>
+function writeMsg() {
+  <br>
+  echo "Hello world!";
+  <br>
+}
+<br>
+
+writeMsg(); // call the function
+<br>
+?>
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="10">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP Array</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  An array is a special variable, which can hold more than one value at a time.
+</p>
+
+<p>
+Indexed arrays - Arrays with a numeric index
+
+</p>
+<p>
+Associative arrays - Arrays with named keys
+
+</p>
+<P>
+Multidimensional arrays - Arrays containing one or more arrays
+
+</P>
+
+<h1>Syntax</h1>
+<code class="card border-x1 col-lg-9 m-3 p-4">
+   $newArray = array('One','two');
+  
+</code>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  <h4>Example</h4>
+  <?php
+  <br>
+$cars = array("Volvo", "BMW", "Toyota");
+<br>
+echo count($cars);
+<br>
+?>
+<br>
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="11">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP From Handling</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+ You can gather data from a simple HTML page in php using forms
+</p>
+
+
+
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+ 
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+<div class="col-lg-6 mb-lg-2" id="12">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">Cookies in Php</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  A cookie is created with the <code>
+    setcookies()
+  </code> function.
+
+<h4>PHP Create/Retrieve a Cookie</h4>
+
+<p>
+The following example creates a cookie named "user" with the value "John Doe". The cookie will expire after 30 days (86400 * 30). The "/" means that the cookie is available in entire website (otherwise, select the directory you prefer).
+
+</p>
+<p>
+We then retrieve the value of the cookie "user" (using the global variable $_COOKIE). We also use the isset() function to find out if the cookie is set:
+
+</p>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  $cookie_name = "user";
+  <br>
+  $cookie_value = "John Doe";
+  <br>
+  setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+  <br>
+if(!isset($_COOKIE[$cookie_name])) {
+  <br>
+  echo "Cookie named '" . $cookie_name . "' is not set!";
+  <br>
+} else {
+  <br>
+  echo "Cookie '" . $cookie_name . "' is set!";
+  <br>
+  echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
+ 
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="12">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">What is Sessions?</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<P class="text-wrap">
+  When you work with an application, you open it, do some changes, and then you close it. This is much like a Session. The computer knows who you are. It knows when you start the application and when you end. But on the internet there is one problem: the web server does not know who you are or what you do, because the HTTP address doesn't maintain state.
+
+Session variables solve this problem by storing user information to be used across multiple pages (e.g. username, favorite color, etc). By default, session variables last until the user closes the browser.
+
+So; Session variables hold information about one single user, and are available to all pages in one application.
+</P>
+
+<h4>Start Session</h4>
+
+<p>A session start with the function <code>
+  session_start()
+</code></p>
+
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+  <?php
+  <br>
+  // Start the session
+  session_start();
+  <br>
+  $_SESSION["favcolor"] = "green";
+  <br>
+$_SESSION["favanimal"] = "cat";
+<br>
+echo "Session variables are set.";
+<br>
+?>
+ 
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+
+</main>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fixed-plugin">
+    <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
+      <i class="fa fa-cog py-2"></i>
+    </a>
+    <div class="card shadow-lg">
+      <div class="card-header pb-0 pt-3 ">
+        <div class="float-start">
+          <h5 class="mt-3 mb-0">Configuration</h5>
+          <p>See our available options.</p>
+        </div>
+        <div class="float-end mt-4">
+          <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <!-- End Toggle Button -->
+      </div>
+      <hr class="horizontal dark my-1">
+      <div class="card-body pt-sm-3 pt-0 overflow-auto">
+        <!-- Sidebar Backgrounds -->
+        
+        <div>
+          <h6 class="mb-0">Sidebar Colors</h6>
+        </div>
+        <a href="javascript:void(0)" class="switch-trigger background-color">
+          <div class="badge-colors my-2 text-start">
+            <span class="badge filter bg-gradient-primary " data-color="primary" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-warning" data-color="warning" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-white active" data-color="bg-transparent" onclick="sidebarColor(this)"></span>
+
+          </div>
+        </a>
+
+        <!-- Sidenav Type -->
+        
+        <div class="mt-3">
+          <h6 class="mb-0">Sidenav Type</h6>
+          <p class="text-sm">Choose between 2 different sidenav types.</p>
+        </div>
+
+        <div class="d-flex">
+          <button class="btn bg-gradient-primary w-100 px-3 mb-2 active me-2" data-class="bg-white" onclick="sidebarType(this)">White</button>
+          <button class="btn bg-gradient-primary w-100 px-3 mb-2" data-class="bg-default" onclick="sidebarType(this)">Dark</button>
+        </div>
+
+        <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
+  
+        
+        <hr class="horizontal dark my-sm-4">
+
+        <div class="mt-2 mb-5 d-flex">
+          <h6 class="mb-0">Light / Dark</h6>
+          <div class="form-check form-switch ps-0 ms-auto my-auto">
+            <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+      
+
+<script src="./assets/js/core/popper.min.js" ></script> 
+<script src="./assets/js/core/bootstrap.min.js" ></script>
+<script src="./assets/js/plugins/perfect-scrollbar.min.js" ></script>
+<script src="./assets/js/plugins/smooth-scrollbar.min.js" ></script>
+<script src="./assets/js/argon-dashboard.js"></script>
+</body>
+
+</html>
+
